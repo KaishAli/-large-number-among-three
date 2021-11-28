@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function max_of_three(x, y, z) 
+ {
+  max_value = 0;
+  if (x > y)
+  {
+    max_value = x;
+  } else
+  {
+    max_value = y;
+  }
+  if (z > max_value) 
+  {
+    max_val = z;
+  }
+  return max_value;
+}
+
+console.log("gretest number "+max_of_three(3,0,1));
+console.log("gretest number " +max_of_three(0,50,30));
+console.log("gretest number " +max_of_three(1000,510,440));
+    </script>
+</body>
+</html>
